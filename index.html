@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supawat Sopradit - Cloud Engineer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background: #ffffff;
+            color: #232f3e;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 1rem;
+        }
+        .card {
+            background: #ffffff;
+            border: 1px solid #e8e8e8;
+            border-top: 4px solid #ff9900;
+            border-radius: 12px;
+            padding: 3rem;
+            max-width: 650px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 1.5rem;
+            overflow: hidden;
+            border: 3px solid #ff9900;
+            box-shadow: 0 0 20px rgba(255, 153, 0, 0.3);
+        }
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 0.3rem;
+            color: #232f3e;
+        }
+        .title {
+            color: #ff9900;
+            font-weight: 600;
+            margin-bottom: 0.3rem;
+        }
+        .company {
+            color: #545b64;
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+        }
+        .bio {
+            line-height: 1.8;
+            color: #545b64;
+            margin-bottom: 2rem;
+            text-align: left;
+            font-size: 0.92rem;
+        }
+        .bio p { margin-bottom: 1rem; }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+        .skills span {
+            padding: 0.4rem 0.8rem;
+            border-radius: 6px;
+            background: #fff7e6;
+            border: 1px solid #ffcc80;
+            color: #c77600;
+            font-size: 0.82rem;
+            font-weight: 500;
+        }
+        .links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .links a {
+            padding: 0.6rem 1.2rem;
+            border-radius: 8px;
+            background: #232f3e;
+            border: 1px solid #232f3e;
+            color: #ffffff;
+            text-decoration: none;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+        .links a:hover {
+            background: #ff9900;
+            border-color: #ff9900;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <main class="card">
+        <div class="avatar"><img src="supawat-ohm.jpg" alt="Supawat Sopradit"></div>
+        <h1>Supawat Sopradit</h1>
+        <p class="title">Cloud Engineer</p>
+        <p class="company">AP (Thailand) Public Company Limited</p>
+        <div class="bio">
+            <p>With 10+ years of experience in the IT industry, I currently work as a Cloud Engineer with deep expertise in Amazon Web Services (AWS).</p>
+            <p>My hands-on experience includes core services such as EC2, ECS (Fargate), RDS, ElastiCache, CloudFront, VPC, and CloudWatch. I design and implement scalable, secure, and cost-efficient cloud architectures following AWS best practices, including multi-account environments with Landing Zone and network segmentation.</p>
+            <p>I also build end-to-end CI/CD pipelines using AWS CodePipeline, CodeBuild, and related automation tools — supporting faster and more reliable application delivery across development, UAT, and production environments.</p>
+            <p>Passionate about cloud-native solutions and automation, I'm committed to continuous learning and growth. My goal is to reach expert-level proficiency in AWS and expand my capabilities across other leading cloud platforms.</p>
+        </div>
+        <div class="skills">
+            <span>AWS</span>
+            <span>VPC & Networking</span>
+            <span>IAM</span>
+            <span>EC2</span>
+            <span>ECS Fargate</span>
+            <span>RDS</span>
+            <span>S3</span>
+            <span>CloudFront</span>
+            <span>CloudFormation</span>
+            <span>CodePipeline</span>
+            <span>CloudWatch</span>
+            <span>Linux</span>
+            <span>Docker</span>
+            <span>CI/CD</span>
+        </div>
+        <nav class="links" aria-label="Social links">
+            <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="mailto:you@example.com">Email</a>
+        </nav>
+    </main>
+</body>
+</html>
